@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #38246b; /* Matching the dominant logo color */
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh; /* Ensures full height */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    margin-right: 20px;
+    height: 100px; /* Increased size */
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.generate-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjusts the button to be truly centered at the given position */
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    cursor: pointer; /* Changes the cursor on hover */
+}
+
+.generate-button:hover {
+    background-color: #f8f8f8; /* Slightly different background on hover */
+}
+
+.dropdown-menus {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.dropdown {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    appearance: none; /* Removes default styling provided by the browser */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"><path d="M7 10l5 5 5-5z"/></svg>'); /* Down arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+
