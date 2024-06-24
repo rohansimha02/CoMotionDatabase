@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #38246b; /* Matching the dominant logo color */
+    background: linear-gradient(to bottom, #38246b, rgb(191, 162, 77));
     font-family: Arial, sans-serif;
     position: relative;
     min-height: 100vh; /* Ensures full height */
@@ -20,7 +20,8 @@ body {
 .header h1 {
     color: white;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .generate-button {
@@ -37,7 +38,7 @@ body {
 }
 
 .generate-button:hover {
-    background-color: #f8f8f8; /* Slightly different background on hover */
+    background-color: #f8f8f8; 
 }
 
 .dropdown-menus {
@@ -53,7 +54,7 @@ body {
     background-color: white;
     border: 1px solid black;
     cursor: pointer;
-    appearance: none; /* Removes default styling provided by the browser */
+    appearance: none; 
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"><path d="M7 10l5 5 5-5z"/></svg>'); /* Down arrow icon */
     background-repeat: no-repeat;
     background-position: right 10px center;
