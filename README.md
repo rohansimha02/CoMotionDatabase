@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-An automated financial reporting system built for CoMotion startup incubator to streamline the generation of startup invoice and billing reports. This tool integrates with Nexudus API to fetch financial data and generate Excel reports for startup companies housed within the incubator.
+An automated financial reporting system built for oMotion Startup Incubator to streamline the generation of startup invoice and billing reports. This tool integrates with Nexudus API to fetch financial data and generate reports for startups housed within the incubator.
 
-**Real-world Impact**: This system was actively used at CoMotion startup incubator to automate financial reporting processes, reducing manual data processing time from hours to minutes for incubator staff.
+**Real-world Impact**: This system was actively used at the CoMotion Startup Incubator to automate financial reporting processes, reducing manual data processing time from hours to minutes for incubator staff.
 
 ## Key Features
 
@@ -119,4 +119,3 @@ CoMotionDatabase/
 ```
 
 ---
-**Completed**: [Insert Date]
